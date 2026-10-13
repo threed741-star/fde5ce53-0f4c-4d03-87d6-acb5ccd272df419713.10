@@ -254,7 +254,7 @@
     <!-- Active Range Filter Banner (date/month filters only) -->
     <div id="rangeFilterBanner" style="display:none; background:#eafaf1; border-left:4px solid var(--success); padding:10px 15px; border-radius:6px; margin-bottom:12px; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
         <span><i class="fas fa-calendar-week"></i> <strong id="rangeFilterLabel">শেষ ৩০ দিনের</strong> ডাটা দেখানো হচ্ছে — <span id="rangeFilterText"></span></span>
-        <button class="btn-back" onclick="clearRangeFilter()"><i class="fas fa-times"></i> ফিল্টার মুছুন</button>
+        
     </div>
 
     <!-- Normal Data Table (date filter / search / all) -->
@@ -291,7 +291,7 @@
     <div id="last30View" style="display:none;">
         <div style="background:#eafaf1; border-left:4px solid #16a085; padding:10px 15px; border-radius:6px; margin-bottom:12px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px;">
             <span><i class="fas fa-calendar-week"></i> <strong>শেষ ৩০ দিনের</strong> ডাটা — <span id="last30RangeText" style="color:#555;"></span></span>
-            <button class="btn-back" onclick="closeLast30View()"><i class="fas fa-times"></i> বন্ধ করুন</button>
+            
         </div>
         <div style="overflow-x: auto;">
             <table id="last30Table">
